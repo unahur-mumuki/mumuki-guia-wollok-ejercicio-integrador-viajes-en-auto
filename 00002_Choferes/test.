@@ -23,7 +23,7 @@ test "Gabriela le cobra 264 a Teresa por 10km" {
 }
 
 test "Gabriela le cobra 43.20 a Ludmila por 2km" {
-  assert.equals(43.20, gabriela.precioViaje(ludmila, 10))
+  assert.equals(43.2, gabriela.precioViaje(ludmila, 10))
 }
 
 test "Gabriela le cobra 72 a Ana María por 2km" {
