@@ -5,4 +5,4 @@ Vamos a considerar por ahora a Roxana y Gabriela, que tienen las siguientes part
 - **Roxana** le cobra a cada cliente el precio por kilómetro que pactó con la cooperativa sin variaciones.
 - **Gabriela** le aumenta un 20%, porque su auto de alta gama.
 
-> Creá al objeto `gabriela` con un mensaje similar al de `roxana` pero teniendo en cuenta el plus que cobra ella.
+> Agregá a la solución el objeto `gabriela` con un mensaje similar al de `roxana` pero teniendo en cuenta el plus que cobra ella.
