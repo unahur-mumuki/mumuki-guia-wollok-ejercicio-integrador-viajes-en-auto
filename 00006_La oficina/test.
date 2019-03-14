@@ -5,6 +5,16 @@ describe "La oficina" {
     assert.equals(lucia, oficina.choferSegundaOpcion())
   }
   
+  test "puede cambiar el primer chofer" {
+    oficina.cambiarPrimerChoferPor(roxana)
+    assert.equals(roxana, oficina.choferPrimeraOpcion())
+  }
+  
+  test "puede cambiar el segundo chofer" {
+    oficina.cambiarSegundoChoferPor(mariela)
+    assert.equals(mariela, oficina.choferSegundaOpcion())
+  }  
+  
   test "puede intercambiar choferes" {
     oficina.asignarChoferes(juana, gabriela)
     oficina.intercambiarChoferes()
