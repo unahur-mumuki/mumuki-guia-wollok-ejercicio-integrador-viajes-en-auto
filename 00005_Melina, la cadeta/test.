@@ -8,7 +8,7 @@ test "Trabajando para Ana María, Melina pacta un precio de 27" {
   assert.equals(27, melina.precioPactadoPorKm())
 }
 
-test "Trabajando para Teresa, Gabriela le cobra 72 a Melina por 2km" {
+test "Trabajando para Teresa, Gabriela le cobra 45.6 a Melina por 2km" {
   melina.estaTrabajandoPara(teresa)
-  assert.equals(72, gabriela.precioViaje(melina, 2))
+  assert.equals(45.6, gabriela.precioViaje(melina, 2))
 }
