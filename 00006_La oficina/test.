@@ -4,4 +4,11 @@ describe "La oficina" {
     assert.equals(melina, oficina.choferPrimeraOpcion())
     assert.equals(lucia, oficina.choferSegundaOpcion())
   }
+  
+  test "puede intercambiar choferes" {
+    oficina.asignarChoferes(juana, gabriela)
+    oficina.intercambiarChoferes()
+    assert.equals(gabriela, oficina.choferPrimeraOpcion())
+    assert.equals(juana, oficina.choferSegundaOpcion())
+  }
 }
