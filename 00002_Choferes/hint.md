@@ -1,1 +1,1 @@
-Recordá que podés usar la [Consola](https://mumuki.io/wollok-obj1/exercises/7296-objetos-y-mensajes-ejercicio-integrador-viajes-en-auto-choferes#console) para probar tu solución. Ya incluimos por vos los objetos de las clientas que definiste en el ejercicio anterior. 
+Recordá que podés usar la **Consola** para probar tu solución. Ya incluimos por vos los objetos de las clientas que definiste en el ejercicio anterior. 
