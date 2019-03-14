@@ -1,8 +1,9 @@
 ---
-name: 'Ejercicio integrador: viajes en auto'
+name: 'Ejercicio integrador: Viajes en Auto'
 locale: es
 type: practice
 beta: false
+teacher_info: ''
 language: wollok
 id_format: "%05d"
 order: []
