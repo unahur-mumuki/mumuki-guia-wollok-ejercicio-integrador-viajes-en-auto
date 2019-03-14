@@ -8,6 +8,6 @@ describe "Precio pactado por kilómetro para" {
   }
 
   test "Teresa" {
-    assert.equals(18, teresa.precioPactadoPorKm())
+    assert.equals(22, teresa.precioPactadoPorKm())
   }  
 }
