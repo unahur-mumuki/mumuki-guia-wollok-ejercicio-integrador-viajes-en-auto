@@ -5,6 +5,8 @@ En este modelo simplificado, cuando la oficina recibe un viaje, hay dos choferes
 El objeto `oficina` debe entender estos mensajes:
 
 - `asignarChoferes(chofer1, chofer2)`: establece los choferes de primera y de segunda opción.
+- `choferPrimeraOpcion()`: devuelve el chofer de primera opción.
+- `choferSegundaOpcion()`: devuelve el chofer de segunda opción.
 - `cambiarPrimerChoferPor(chofer)`: cambia el chofer de primera opción por el que se indica.
 - `cambiarSegundoChoferPor(chofer)`: cambia el chofer de segunda opción por el que se indica.
 - `intercambiarChoferes()`: intercambia los choferes de primera y segunda opción. O sea, el que era primera pasa a segunda, y viceversa.
