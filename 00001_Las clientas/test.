@@ -1,0 +1,5 @@
+describe "Precio por kilómetro para" {
+  test "Ludmila" {
+    assert.equals(18, ludmila.precioPactadoPorKm())
+  }
+}
