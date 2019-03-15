@@ -21,4 +21,9 @@ describe "La oficina" {
     assert.equals(gabriela, oficina.choferPrimeraOpcion())
     assert.equals(juana, oficina.choferSegundaOpcion())
   }
+  
+  test "asigna a Juana en vez de a Roxana para un viaje de 10 kilómetros para Ana María" {
+    oficina.asignarChoferes(roxana, juana)
+    assert.equals(juana, oficina.choferElegidoParaViaje(anaMaria, 10))
+  }
 }
