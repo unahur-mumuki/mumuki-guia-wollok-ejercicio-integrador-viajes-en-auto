@@ -26,4 +26,14 @@ describe "La oficina" {
     oficina.asignarChoferes(roxana, juana)
     assert.equals(juana, oficina.choferElegidoParaViaje(anaMaria, 10))
   }
+  
+  test "asigna a Roxana para un viaje de 10 kilómetros para Teresa, aunque su precio sea mayor" {
+    oficina.asignarChoferes(roxana, juana)
+    assert.equals(roxana, oficina.choferElegidoParaViaje(teresa, 10))
+  }
+  
+  test "asigna a Roxana para un viaje de 4 kilómetros para Teresa, porque su precio es menor" {
+    oficina.asignarChoferes(roxana, juana)
+    assert.equals(roxana, oficina.choferElegidoParaViaje(teresa, 4))
+  }
 }
